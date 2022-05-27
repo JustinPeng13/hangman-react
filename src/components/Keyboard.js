@@ -9,6 +9,7 @@ const Keyboard = ({ handleGuess, correctGuess, wrongGuess }) => {
           <Button
             variant='primary'
             size='lg'
+            className='m-1 keys'
             key={letter}
             value={letter}
             onClick={handleGuess}
@@ -23,6 +24,7 @@ const Keyboard = ({ handleGuess, correctGuess, wrongGuess }) => {
           <Button
             variant='primary'
             size='lg'
+            className='m-1 keys'
             key={letter}
             value={letter}
             onClick={handleGuess}
@@ -37,6 +39,7 @@ const Keyboard = ({ handleGuess, correctGuess, wrongGuess }) => {
           <Button
             variant='primary'
             size='lg'
+            className='m-1 keys'
             key={letter}
             value={letter}
             onClick={handleGuess}
