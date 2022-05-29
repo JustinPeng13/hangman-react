@@ -27,3 +27,12 @@ strong {
 .keys {
   width: 3rem;
 }
+
+@media screen and (max-width: 600px)  {
+  button.keys {
+    width: auto;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+  }
+}
