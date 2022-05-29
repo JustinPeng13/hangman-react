@@ -5,7 +5,7 @@ const Keyboard = ({ handleGuess, correctGuess, wrongGuess }) => {
   return (
     <div>
       <div>
-        {"qwertyuiop".split("").map(letter => (
+        {"QWERTYUIOP".split("").map(letter => (
           <Button
             variant='primary'
             size='lg'
@@ -20,7 +20,7 @@ const Keyboard = ({ handleGuess, correctGuess, wrongGuess }) => {
         ))}
       </div>
       <div>
-        {"asdfghjkl".split("").map(letter => (
+        {"ASDFGHJKL".split("").map(letter => (
           <Button
             variant='primary'
             size='lg'
@@ -35,7 +35,7 @@ const Keyboard = ({ handleGuess, correctGuess, wrongGuess }) => {
         ))}
       </div>
       <div>
-        {"zxcvbnm".split("").map(letter => (
+        {"ZXCVBNM".split("").map(letter => (
           <Button
             variant='primary'
             size='lg'

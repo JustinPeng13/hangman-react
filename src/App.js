@@ -56,7 +56,7 @@ function App() {
     const handleKeydown = e => {
       const { key, keyCode } = e;
       if (status == '' && keyCode >= 65 && keyCode <= 90) {
-        const letter = key.toLowerCase();
+        const letter = key.toUpperCase();
         if (word.includes(letter)) {
           if (!correctGuess.includes(letter)) {
             setCorrectGuess(currentLetters => [...currentLetters, letter]);

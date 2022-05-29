@@ -223,7 +223,7 @@ const words = [
 ]
 
 const randomWord = () => {
-  return words[Math.floor(Math.random() * words.length)].toLowerCase();
+  return words[Math.floor(Math.random() * words.length)].toUpperCase();
 }
 
 export default randomWord;
