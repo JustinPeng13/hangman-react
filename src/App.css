@@ -28,6 +28,10 @@ strong {
   width: 3rem;
 }
 
+button.keys:disabled {
+  background-color: lightskyblue;
+}
+
 @media screen and (max-width: 600px)  {
   button.keys {
     width: auto;
