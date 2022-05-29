@@ -9,6 +9,11 @@ This project was created by TikTok Youth Camp Group 13 for Group Project A.
 1. Install `Node JS` v14.15.1 on your system (https://nodejs.org/en/).
 2. Run `npm start` in the `hangman-react` directory to start the React app.
 
+# How to play Hangman-React
+
+1. Use the on-screen keyboard by clicking the keys, or type the letter you want to guess on your keyboard.
+2. You have 6 tries to guess all the letters in the hidden word.
+
 # Project Management
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
